@@ -89,7 +89,7 @@ let zgdyqdbody = $.getdata('zgdyqdbody')
 //POST https://wap.xj.10086.cn/mservice/server/activity/signIn2021/sign?BTls6WcN=5w2xpYgcK_Sajuci6i6zkEbTdze_JuHL4Wuc8LnIYPghR8oT4Oi2NSU0Cnv5Fi1jtVMKa03NBEmBhLGR0abJiOph91lHINupl0G01qmepsxe3JM2JQIUgqS0XcJUVGPtkzO5MIPICQzqWN0KfieeEgatySbHXhuUURnCaAt1dEWU7xctN1Kgbhy6F8.abt4658yYvI88_wRz3kRGWuLJ12cGU4hSA26YLbOq49wnKBjcux0UsL1jiVQR__.hjyeL1yG5eSzOM9GP.g4wVJ65SPqhu4V6SSVmWPASmJyTWWHs0hI9SNjvG.LhkxQ0vO95cZjvHSYIHKJE0yOqZrwDgQlvVa_UHw46MmDMua8ZkwOPjuIRttfKbOSt_WHI_TxtTdY3rBDwFQc823CWaMBpOfq&Oft1jXVy=4RA.uXkwbe3YgJKNVszT1q7ZJLhkgdzQBdFQluAVYqTI7abj681.1uUZAaf7QPLZS8SReOjp1f.B.84rRqnr_D4wPOw_RctznSi3JP7RcSDEj74yh4F0WeDCqD5duJJiQMaklUTt.lMChpviyHH9H5.H.G6YERyAD_sLLF4jkllyL_5R2sqEKqxfe0KW._WaqFYWGBLk0xYmmAotqGZ_3Ja
 //获取ck
 function zgdyqdck() {
-    if ($request.url.indexOf("sign") > -1) {
+    if ($request.url.indexOf("signIn") > -1) {
         const zgdyqdurl = $request.url
         if (zgdyqdurl) $.setdata(zgdyqdurl, `zgdyqdurl${status}`)
         $.log(zgdyqdurl)
