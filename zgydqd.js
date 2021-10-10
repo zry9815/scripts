@@ -115,7 +115,7 @@ function zgydqd(timeout = 0) {
     return new Promise((resolve) => {
 
         let url = {
-            url: `https://wap.xj.10086.cn/mservice/server/activity/signIn2021/sign?&ajaxSubmitType=post&ajax_randomcode=0.11513071729126811`,
+            url: `https://wap.xj.10086.cn/mservice/server/activity/signIn2021/sign?`,
             headers: JSON.parse(zgdyqdhd),
             body: `&ajaxSubmitType=post&ajax_randomcode=0.11513071729126811`,
         }
